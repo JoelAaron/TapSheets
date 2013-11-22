@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3645D6183D5CAA00F62189 /* Questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B3645D5183D5CAA00F62189 /* Questions.plist */; };
+		6B4E2571183FC9F8006B21D8 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E2570183FC9F8006B21D8 /* Game.m */; };
+		6B4E2574183FD3B9006B21D8 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E2573183FD3B9006B21D8 /* Player.m */; };
 		6B59C00B18370A6400D76A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B59C00A18370A6400D76A89 /* Foundation.framework */; };
 		6B59C00D18370A6400D76A89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B59C00C18370A6400D76A89 /* CoreGraphics.framework */; };
 		6B59C00F18370A6400D76A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B59C00E18370A6400D76A89 /* UIKit.framework */; };
@@ -14,13 +17,16 @@
 		6B59C01718370A6400D76A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C01618370A6400D76A89 /* main.m */; };
 		6B59C01B18370A6400D76A89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C01A18370A6400D76A89 /* AppDelegate.m */; };
 		6B59C01E18370A6400D76A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B59C01C18370A6400D76A89 /* Main.storyboard */; };
-		6B59C02118370A6400D76A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C02018370A6400D76A89 /* ViewController.m */; };
 		6B59C02318370A6400D76A89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B59C02218370A6400D76A89 /* Images.xcassets */; };
 		6B59C02A18370A6400D76A89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B59C02918370A6400D76A89 /* XCTest.framework */; };
 		6B59C02B18370A6400D76A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B59C00A18370A6400D76A89 /* Foundation.framework */; };
 		6B59C02C18370A6400D76A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B59C00E18370A6400D76A89 /* UIKit.framework */; };
 		6B59C03418370A6400D76A89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B59C03218370A6400D76A89 /* InfoPlist.strings */; };
 		6B59C03618370A6400D76A89 /* TapSheetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C03518370A6400D76A89 /* TapSheetsTests.m */; };
+		6B59C04118370B0F00D76A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C04018370B0F00D76A89 /* ViewController.m */; };
+		6B59C04418370B2000D76A89 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C04318370B2000D76A89 /* PlayViewController.m */; };
+		6B59C04718370B2700D76A89 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C04618370B2700D76A89 /* SettingsViewController.m */; };
+		6B59C04D18370EC500D76A89 /* ScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C04C18370EC500D76A89 /* ScoresViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B3645D5183D5CAA00F62189 /* Questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Questions.plist; sourceTree = "<group>"; };
+		6B4E256F183FC9F8006B21D8 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		6B4E2570183FC9F8006B21D8 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		6B4E2572183FD3B9006B21D8 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		6B4E2573183FD3B9006B21D8 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		6B59C00718370A6400D76A89 /* TapSheets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapSheets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B59C00A18370A6400D76A89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6B59C00C18370A6400D76A89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +56,20 @@
 		6B59C01918370A6400D76A89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B59C01A18370A6400D76A89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6B59C01D18370A6400D76A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B59C01F18370A6400D76A89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B59C02018370A6400D76A89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B59C02218370A6400D76A89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B59C02818370A6400D76A89 /* TapSheetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapSheetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B59C02918370A6400D76A89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6B59C03118370A6400D76A89 /* TapSheetsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapSheetsTests-Info.plist"; sourceTree = "<group>"; };
 		6B59C03318370A6400D76A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B59C03518370A6400D76A89 /* TapSheetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapSheetsTests.m; sourceTree = "<group>"; };
+		6B59C03F18370B0F00D76A89 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B59C04018370B0F00D76A89 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B59C04218370B2000D76A89 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		6B59C04318370B2000D76A89 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		6B59C04518370B2700D76A89 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		6B59C04618370B2700D76A89 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		6B59C04B18370EC500D76A89 /* ScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoresViewController.h; sourceTree = "<group>"; };
+		6B59C04C18370EC500D76A89 /* ScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoresViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +129,21 @@
 		6B59C01018370A6400D76A89 /* TapSheets */ = {
 			isa = PBXGroup;
 			children = (
+				6B4E2572183FD3B9006B21D8 /* Player.h */,
+				6B4E2573183FD3B9006B21D8 /* Player.m */,
+				6B4E256F183FC9F8006B21D8 /* Game.h */,
+				6B4E2570183FC9F8006B21D8 /* Game.m */,
 				6B59C01918370A6400D76A89 /* AppDelegate.h */,
 				6B59C01A18370A6400D76A89 /* AppDelegate.m */,
+				6B59C03F18370B0F00D76A89 /* ViewController.h */,
+				6B59C04018370B0F00D76A89 /* ViewController.m */,
+				6B59C04218370B2000D76A89 /* PlayViewController.h */,
+				6B59C04318370B2000D76A89 /* PlayViewController.m */,
+				6B59C04518370B2700D76A89 /* SettingsViewController.h */,
+				6B59C04618370B2700D76A89 /* SettingsViewController.m */,
+				6B59C04B18370EC500D76A89 /* ScoresViewController.h */,
+				6B59C04C18370EC500D76A89 /* ScoresViewController.m */,
 				6B59C01C18370A6400D76A89 /* Main.storyboard */,
-				6B59C01F18370A6400D76A89 /* ViewController.h */,
-				6B59C02018370A6400D76A89 /* ViewController.m */,
 				6B59C02218370A6400D76A89 /* Images.xcassets */,
 				6B59C01118370A6400D76A89 /* Supporting Files */,
 			);
@@ -127,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				6B59C01218370A6400D76A89 /* TapSheets-Info.plist */,
+				6B3645D5183D5CAA00F62189 /* Questions.plist */,
 				6B59C01318370A6400D76A89 /* InfoPlist.strings */,
 				6B59C01618370A6400D76A89 /* main.m */,
 				6B59C01818370A6400D76A89 /* TapSheets-Prefix.pch */,
@@ -199,6 +227,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Sutton, Joel D";
 				TargetAttributes = {
+					6B59C00618370A6400D76A89 = {
+						DevelopmentTeam = 7XW6G62WGA;
+					};
 					6B59C02718370A6400D76A89 = {
 						TestTargetID = 6B59C00618370A6400D76A89;
 					};
@@ -228,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3645D6183D5CAA00F62189 /* Questions.plist in Resources */,
 				6B59C02318370A6400D76A89 /* Images.xcassets in Resources */,
 				6B59C01518370A6400D76A89 /* InfoPlist.strings in Resources */,
 				6B59C01E18370A6400D76A89 /* Main.storyboard in Resources */,
@@ -249,8 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B59C02118370A6400D76A89 /* ViewController.m in Sources */,
+				6B4E2574183FD3B9006B21D8 /* Player.m in Sources */,
+				6B59C04418370B2000D76A89 /* PlayViewController.m in Sources */,
+				6B59C04D18370EC500D76A89 /* ScoresViewController.m in Sources */,
+				6B59C04118370B0F00D76A89 /* ViewController.m in Sources */,
+				6B59C04718370B2700D76A89 /* SettingsViewController.m in Sources */,
 				6B59C01B18370A6400D76A89 /* AppDelegate.m in Sources */,
+				6B4E2571183FC9F8006B21D8 /* Game.m in Sources */,
 				6B59C01718370A6400D76A89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +342,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +381,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -380,10 +415,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapSheets/TapSheets-Prefix.pch";
 				INFOPLIST_FILE = "TapSheets/TapSheets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,10 +432,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapSheets/TapSheets-Prefix.pch";
 				INFOPLIST_FILE = "TapSheets/TapSheets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -404,7 +447,6 @@
 		6B59C03D18370A6400D76A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapSheets.app/TapSheets";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -427,7 +469,6 @@
 		6B59C03E18370A6400D76A89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapSheets.app/TapSheets";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -462,6 +503,7 @@
 				6B59C03B18370A6400D76A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B59C03C18370A6400D76A89 /* Build configuration list for PBXNativeTarget "TapSheetsTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +512,7 @@
 				6B59C03E18370A6400D76A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

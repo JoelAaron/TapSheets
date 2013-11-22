@@ -9,6 +9,7 @@
 #import "ScoresViewController.h"
 
 @interface ScoresViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *buttonBack;
 
 @end
 

@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Player : NSObject
+@interface Player : NSObject{
+    NSString *name;
+    int currentLevel;
+    NSArray *scores;
+}
+
+@property NSString *name;
+@property int currentlevel;
+@property NSArray *scores;
 
 @end

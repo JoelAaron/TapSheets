@@ -9,6 +9,7 @@
 #import "SettingsViewController.h"
 
 @interface SettingsViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *buttonBack;
 
 @end
 

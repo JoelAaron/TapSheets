@@ -10,4 +10,8 @@
 
 @implementation Player
 
+@synthesize name;
+@synthesize currentlevel;
+@synthesize scores;
+
 @end
