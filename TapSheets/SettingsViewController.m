@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  SettingsViewController.m
 //  TapSheets
 //
 //  Created by Sutton, Joel D on 11/15/13.
 //  Copyright (c) 2013 Sutton, Joel D. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SettingsViewController.h"
 
-@interface ViewController ()
+@interface SettingsViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SettingsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

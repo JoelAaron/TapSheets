@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  PlayViewController.m
 //  TapSheets
 //
 //  Created by Sutton, Joel D on 11/15/13.
 //  Copyright (c) 2013 Sutton, Joel D. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PlayViewController.h"
 
-@interface ViewController ()
+@interface PlayViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PlayViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

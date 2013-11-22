@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Question Title</key>
+		<string>What is 1 + 1?</string>
+		<key>A</key>
+		<string>1</string>
+		<key>B</key>
+		<string>2</string>
+		<key>C</key>
+		<string>3</string>
+		<key>D</key>
+		<string>4</string>
+		<key>Question Answer</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>Question Title</key>
+		<string>Which letter is D?</string>
+		<key>A</key>
+		<string>A</string>
+		<key>B</key>
+		<string>B</string>
+		<key>C</key>
+		<string>C</string>
+		<key>D</key>
+		<string>D</string>
+		<key>Question Answer</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>Question Title</key>
+		<string>What does Dr. C.&apos;s last name start with?</string>
+		<key>A</key>
+		<string>A</string>
+		<key>B</key>
+		<string>B</string>
+		<key>C</key>
+		<string>C</string>
+		<key>D</key>
+		<string>D</string>
+		<key>Question Answer</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>Question Title</key>
+		<string>How many bits does a Java int occupy?</string>
+		<key>A</key>
+		<string>8</string>
+		<key>B</key>
+		<string>16</string>
+		<key>C</key>
+		<string>32</string>
+		<key>D</key>
+		<string>Muffin</string>
+		<key>Question Answer</key>
+		<string>32</string>
+	</dict>
+</array>
+</plist>
