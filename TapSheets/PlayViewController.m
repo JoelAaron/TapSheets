@@ -52,7 +52,7 @@
     self.lblAnswerA.text = game.optionA;
     self.lblAnswerB.text = game.optionB;
     self.lblAnswerC.text = game.optionC;
-    self.lblAnswerD.text = game.optionA;
+    self.lblAnswerD.text = game.optionD;
 }
 
 
@@ -67,12 +67,32 @@
         [game incrementNumberCorrect];
         [self displayQuestion];
     }
+    else{
+        //alert wrong answer given
+        NSString *answer = [NSString stringWithFormat:@"%@ is the Wrong Answer", game.optionA];
+        UIAlertView *wrong = [[UIAlertView alloc]initWithTitle:answer message:@"Try Again" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [wrong sizeToFit];
+        [wrong show];
+        //Call the dismissAlert method after 3 seconds
+        [self performSelector:@selector(dismissAlert:) withObject:wrong afterDelay:3.0f];
+        
+    };
 }
 - (IBAction)buttonTapB:(id)sender {
     if ([game.answer isEqualToString:game.optionB]) {
         [game incrementNumberCorrect];
         [self displayQuestion];
     }
+    else{
+       //Call the dismissAlert method after 3 seconds
+        NSString *answer = [NSString stringWithFormat:@"%@ is the Wrong Answer", game.optionB];
+        UIAlertView *wrong = [[UIAlertView alloc]initWithTitle:answer message:@"Try Again" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [wrong sizeToFit];
+        [wrong show];
+        //dismiss the alert after specified time
+        [self performSelector:@selector(dismissAlert:) withObject:wrong afterDelay:3.0f];
+        
+    };
 }
 
 - (IBAction)buttonTapC:(id)sender {
@@ -80,13 +100,33 @@
         [game incrementNumberCorrect];
         [self displayQuestion];
     }
+    else{
+        //Call the dismissAlert method after 3 seconds
+        NSString *answer = [NSString stringWithFormat:@"%@ is the Wrong Answer", game.optionC];
+        UIAlertView *wrong = [[UIAlertView alloc]initWithTitle:answer message:@"Try Again" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [wrong sizeToFit];
+        [wrong show];
+        //dismiss the alert after specified time
+        [self performSelector:@selector(dismissAlert:) withObject:wrong afterDelay:3.0f];
+        
+    };
 }
 
+//D Option Selected
 - (IBAction)buttonTapD:(id)sender {
     if ([game.answer isEqualToString:game.optionD]) {
         [game incrementNumberCorrect];
         [self displayQuestion];
     }
+    else{
+        //Call the dismissAlert method after 3 seconds
+        NSString *answer = [NSString stringWithFormat:@"%@ is the Wrong Answer", game.optionD];
+        UIAlertView *wrong = [[UIAlertView alloc]initWithTitle:answer message:@"Try Again" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [wrong sizeToFit];
+        [wrong show];
+        //dismiss the alert after specified time
+        [self performSelector:@selector(dismissAlert:) withObject:wrong afterDelay:3.0f];
+    };
 }
 
 -(void)displayQuestion{
@@ -97,5 +137,11 @@
     self.lblAnswerB.text = game.optionB;
     self.lblAnswerC.text = game.optionC;
     self.lblAnswerD.text = game.optionD;
+}
+
+//dismiss the alert view
+-(void)dismissAlert:(UIAlertView *) alertView
+{
+    [alertView dismissWithClickedButtonIndex:nil animated:YES];
 }
 @end
